@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(125,125,252,0.3),rgba(125,125,252,0.3)),url("./home.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.head{
+    background-color: white;
+}
+.heading{
+    text-align: center;
+    margin-top: 10px;
+    color:navy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.table p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color:black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.table{
+    margin-left: 50px;
+    color:black;
+}
+table{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+table, th, td{
+    border: 5px solid rgba(29, 206, 212, 0.842);
+}
